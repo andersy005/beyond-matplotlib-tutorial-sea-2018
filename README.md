@@ -1,3 +1,4 @@
-# Building Interactive Climate Data Visualization with Holoviews, Geoviews, and Bokeh Tutorial, SEA 2018 
+# Beyond Matplotlib: Building Interactive Climate Data Visualizations with Bokeh and Friends
 
-Building Interactive Climate Data Visualization with Holoviews and Bokeh. 
+Tutorial on building interactive data visualizations with Holoviews, Geoviews, and Bokeh for 2018 NCAR SEA Conference.
+
