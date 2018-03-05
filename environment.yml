@@ -1,6 +1,7 @@
 name: pyviz
 channels:
   - ioam
+  - pyviz
   - conda-forge
   - bokeh
   - defaults
