@@ -15,7 +15,7 @@ The Python visualization tools presented in this repo include: [Bokeh](http://bo
 
 ## Installation
 
-**Step 1:** Install a [Miniconda](http://conda.pydata.org/miniconda.html) (or [Anaconda](https://www.continuum.io/downloads) environment
+**Step 1:** Install a [Miniconda](http://conda.pydata.org/miniconda.html) (or [Anaconda](https://www.continuum.io/downloads) environment)
 
 -----------------------------------------------------------------
 
