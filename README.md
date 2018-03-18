@@ -15,7 +15,7 @@ The Python visualization tools presented in this repo include: [Bokeh](http://bo
 
 ## Installation
 
-**Step 1:** Install a [Miniconda](http://conda.pydata.org/miniconda.html) (or [Anaconda](https://www.continuum.io/downloads) environment)
+### Step 1: Install a [Miniconda](http://conda.pydata.org/miniconda.html) (or [Anaconda](https://www.continuum.io/downloads) environment)
 
 -----------------------------------------------------------------
 
@@ -23,12 +23,12 @@ Any Linux, Mac OS X, or Windows computer with a web browser (preferably Google C
 
 If you don't already have conda on your machine, you can get it from [Anaconda.com](http://conda.pydata.org/miniconda.html), and then open a terminal window.
 
-**Step 2:** Clone beyond-matplotlib-tutorial-sea-2018 git repo
+### Step 2: Clone beyond-matplotlib-tutorial-sea-2018 git repo
 
     git clone https://github.com/andersy005/beyond-matplotlib-tutorial-sea-2018.git
 
 
-**Step 3:** Then `cd` to the beyond-matplotlib-tutorial-sea-2018 folder and create a separate Conda environment to work in for this tutorial
+### Step 3: Then `cd` to the beyond-matplotlib-tutorial-sea-2018 folder and create a separate Conda environment to work in for this tutorial
 
     cd beyond-matplotlib-tutorial-sea-2018
     conda env update
@@ -39,20 +39,20 @@ This downloads all of the dependencies and then all you have to is:
 
 (omitting "source" if you are on Windows).
 
-**Step 4:** Download the sample data
+### Step 4: Download the sample data
 
 
    > pyviz --download-sample-data
 
 (Small datasets come with the examples, but large ones like the  dataset have to be downloaded separately, which can take some time.)
 
-**Step 5:** Launch Jupyter Notebook
+## Step 5: Launch Jupyter Notebook
 
 You can then launch the notebook server and client
 
     jupyter notebook
 
-A browser window with a Jupyter Notebook instance should now open, letting you select and execute each notebook.  You can start with the ones in the "notebooks" subdirectory, as these show how to use the others in the "exercises" directory along with the applications in the "apps" directory. 
+A browser window with a Jupyter Notebook instance should now open, letting you select and execute each notebook.
 
 If you don't see the notebook appear (e.g. on some OS X versions), you may need to cut and paste the URL from the console output manually. 
 
