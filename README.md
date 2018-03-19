@@ -41,8 +41,7 @@ This downloads all of the dependencies and then all you have to is:
 
 ### Step 4: Download the sample data
 
-
-   > pyviz --download-sample-data
+    python download_data.py
 
 (Small datasets come with the examples, but large ones like the  dataset have to be downloaded separately, which can take some time.)
 
