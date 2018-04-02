@@ -1,2 +1,4 @@
 #!/bin/bash
 jupyter serverextension enable --py nbserverproxy --sys-prefix
+
+python dowload_data.py 
