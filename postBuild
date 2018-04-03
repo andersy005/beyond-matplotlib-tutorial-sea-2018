@@ -4,7 +4,8 @@
 
 jupyter serverextension enable --py nbserverproxy --sys-prefix
 jupyter labextension install jupyterlab_bokeh
+jupyter labextension install @pyviz/jupyterlab_holoviews
 
 
 # Download preprocessed datasets
-# python download_data.py 
+python download_data.py 
