@@ -43,7 +43,7 @@ This downloads all of the dependencies and then all you have to is:
 
     python download_data.py
 
-(Small datasets come with the examples, but large ones like the  dataset have to be downloaded separately, which can take some time.)
+(A small dataset comes with the examples, but the large one has to be downloaded separately, which can take some time.)
 
 ## Step 5: Launch Jupyter Notebook
 
@@ -53,8 +53,4 @@ You can then launch the notebook server and client
 
 A browser window with a Jupyter Notebook instance should now open, letting you select and execute each notebook.
 
-If you don't see the notebook appear (e.g. on some OS X versions), you may need to cut and paste the URL from the console output manually. 
-
-## Acknowledgements
-
-TODO
+If you don't see the notebook appear (e.g. on some OS X versions), you may need to cut and paste the URL from the console output manually.

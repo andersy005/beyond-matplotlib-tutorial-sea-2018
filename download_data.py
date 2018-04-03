@@ -2,7 +2,7 @@ import urllib.request
 import os
 import pathlib
 
-DATASET_DIR = pathlib.Path('./datasets')
+DATASET_DIR = pathlib.Path('../datasets')
 weather_station_dataset = DATASET_DIR / 'weather_station_data.parquet'
 nc_dataset = DATASET_DIR / 'berkeley_earth_dataset.nc'
 
