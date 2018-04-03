@@ -1,4 +1,10 @@
 #!/bin/bash
-jupyter serverextension enable --py nbserverproxy --sys-prefix
 
+# Install a jupyter notebook + juypterlab extensions 
+
+jupyter serverextension enable --py nbserverproxy --sys-prefix
+jupyter labextension install jupyterlab_bokeh
+
+
+# Download preprocessed datasets
 python download_data.py 
