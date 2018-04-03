@@ -1,5 +1,5 @@
 
-![](https://pyviz.github.io/pyviz/tutorial/assets/hv_gv_bk_ds_pa.png)
+![](https://i.imgur.com/gvrbAjo.png)
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/andersy005/beyond-matplotlib-tutorial-sea-2018/master)
 
@@ -11,7 +11,7 @@ The Python visualization tools presented in this repo include: [Bokeh](http://bo
 [HoloViews](http://holoviews.org),
 [GeoViews](http://geo.holoviews.org),
 [Matplotlib](http://matplotlib.org),
-[Datashader](https://github.com/bokeh/datashader), [Param](https://github.com/ioam/param), and [HoloExt](http://holoext.readthedocs.io/en/latest/).
+, and [HoloExt](http://holoext.readthedocs.io/en/latest/).
 
 ## Installation
 
