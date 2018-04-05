@@ -21,7 +21,7 @@ The Python visualization tools presented in this repo include: [Bokeh](http://bo
 
 Any Linux, Mac OS X, or Windows computer with a web browser (preferably Google Chrome, or FireFox) should be suitable.
 
-If you don't already have conda on your machine, you can get it from [Anaconda.com](http://conda.pydata.org/miniconda.html), and then open a terminal window.
+If you don't already have conda on your machine, you can get it from [Miniconda](http://conda.pydata.org/miniconda.html), and then open a terminal window.
 
 ### Step 2: Clone beyond-matplotlib-tutorial-sea-2018 git repo
 
