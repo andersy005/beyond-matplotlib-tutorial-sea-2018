@@ -15,7 +15,14 @@ The Python visualization tools presented in this repo include: [Bokeh](http://bo
 
 ## Installation
 
-### Step 1: Install a [Miniconda](http://conda.pydata.org/miniconda.html) (or [Anaconda](https://www.continuum.io/downloads) environment)
+### Running in the cloud (binder)
+
+To run notebooks in the cloud (no installation required) [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/andersy005/beyond-matplotlib-tutorial-sea-2018/master)
+
+
+### Running Locally
+
+#### Step 1: Install a [Miniconda](http://conda.pydata.org/miniconda.html) (or [Anaconda](https://www.continuum.io/downloads) environment)
 
 -----------------------------------------------------------------
 
@@ -23,7 +30,7 @@ Any Linux, Mac OS X, or Windows computer with a web browser (preferably Google C
 
 If you don't already have conda on your machine, you can get it from [Miniconda](http://conda.pydata.org/miniconda.html), by opening a terminal window and 
 
-#### Download Miniconda
+##### Download Miniconda
 
     # for linux
     $ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
@@ -34,17 +41,17 @@ If you don't already have conda on your machine, you can get it from [Miniconda]
     # for windows
     # go to: https://conda.io/miniconda.html
 
-#### Install Miniconda
+##### Install Miniconda
 
     $ bash miniconda.sh
     # follow instructions
 
-### Step 2: Clone beyond-matplotlib-tutorial-sea-2018 git repo
+#### Step 2: Clone beyond-matplotlib-tutorial-sea-2018 git repo
 
     git clone https://github.com/andersy005/beyond-matplotlib-tutorial-sea-2018.git
 
 
-### Step 3: Then `cd` to the beyond-matplotlib-tutorial-sea-2018 folder and create a separate Conda environment to work in for this tutorial
+#### Step 3: Then `cd` to the beyond-matplotlib-tutorial-sea-2018 folder and create a separate Conda environment to work in for this tutorial
 
     cd beyond-matplotlib-tutorial-sea-2018
     conda env update
@@ -56,7 +63,7 @@ This downloads all of the dependencies and then all you have to is:
 (omitting "source" if you are on Windows).
 
 
-## Step 4: Launch Jupyter Notebook
+#### Step 4: Launch Jupyter Notebook
 
 You can then launch the notebook server and client
 
@@ -67,6 +74,6 @@ A browser window with a Jupyter Notebook instance should now open, letting you s
 If you don't see the notebook appear (e.g. on some OS X versions), you may need to cut and paste the URL from the console output manually.
 
 
-## Step 5: Test that everything is working
+#### Step 5: Test that everything is working
 
 You can see if everything has installed correctly by selecting the `00-welcome.ipynb` notebook and doing "Cell/Run All" in the menus. There may be warnings on some platforms, but you'll know it is working if you see the HoloViews logo after it runs `hv.extension()`
