@@ -39,13 +39,8 @@ This downloads all of the dependencies and then all you have to is:
 
 (omitting "source" if you are on Windows).
 
-### Step 4: Download the sample data
 
-    python download_data.py
-
-(A small dataset comes with the examples, but the large one has to be downloaded separately, which can take some time.)
-
-## Step 5: Launch Jupyter Notebook
+## Step 4: Launch Jupyter Notebook
 
 You can then launch the notebook server and client
 
