@@ -21,7 +21,23 @@ The Python visualization tools presented in this repo include: [Bokeh](http://bo
 
 Any Linux, Mac OS X, or Windows computer with a web browser (preferably Google Chrome, or FireFox) should be suitable.
 
-If you don't already have conda on your machine, you can get it from [Miniconda](http://conda.pydata.org/miniconda.html), and then open a terminal window.
+If you don't already have conda on your machine, you can get it from [Miniconda](http://conda.pydata.org/miniconda.html), by opening a terminal window and 
+
+#### Download Miniconda
+
+    # for linux
+    $ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+
+    # for osx
+    $ wget https://repo.continuum.io/miniconda/Miniconda3-latest-MacOSX-x86_64.sh -O miniconda.sh
+
+    # for windows
+    # go to: https://conda.io/miniconda.html
+
+#### Install Miniconda
+
+    $ bash miniconda.sh
+    # follow instructions
 
 ### Step 2: Clone beyond-matplotlib-tutorial-sea-2018 git repo
 
@@ -49,3 +65,8 @@ You can then launch the notebook server and client
 A browser window with a Jupyter Notebook instance should now open, letting you select and execute each notebook.
 
 If you don't see the notebook appear (e.g. on some OS X versions), you may need to cut and paste the URL from the console output manually.
+
+
+## Step 5: Test that everything is working
+
+You can see if everything has installed correctly by selecting the `00-welcome.ipynb` notebook and doing "Cell/Run All" in the menus. There may be warnings on some platforms, but you'll know it is working if you see the HoloViews logo after it runs `hv.extension()`
